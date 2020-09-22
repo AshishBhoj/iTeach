@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar CSS */
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken   
+}
+
+.op{
+    opacity: 0.9;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logo img{
+    margin: 2px;
+    width: 60%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    margin: 35px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    /* background-color: black; */
+    /* color: white; */
+    /* border: 2px solid white; */
+    cursor: pointer;
+    /* border-radius: 10px//; */
+}
+
+.rightnav{
+    padding: 10px 14px;
+    width: 30%;
+    text-align: right;
+}
+
+.btn{
+    color: white;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px 40px;
+    margin-right: 10px;
+    background: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 4px 20px;
+    vertical-align: middle;
+}
+
+.btn1{
+    color: black;
+    margin: 7px 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 7px 40px;
+    margin-right: 10px;
+    background: none;
+}
+
+.btn1:hover{
+    cursor: pointer;
+}
+
+#search{
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+/* Home CSS */
+
+.typewrite{
+    color: white;
+    text-decoration: none;
+}
+.firstsection{
+    height: 80vh;
+}
+
+.box-main{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 60%;
+    margin: auto;
+}
+
+.firsthalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width: 30%;
+}
+
+.secondhalf img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: 23px;
+}
+
+.text-big{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+.text-small{
+    font-size: 16px;
+    margin: 4px;
+}
+
+/* About CSS */
+#about{
+    background-color: #f1f1f1;
+    height: 1350px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 300px; */
+    margin: auto;
+    max-width: 80%;
+    margin-top: 20px;
+    margin-top: 80px;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 40px;
+}
+
+/* Services CSS */
+#services{
+    height: 550px;
+    background-color: #d6ecd8;
+}
+.services{
+    margin: 34px;
+    display: flex;
+}
+
+.services .box{
+    border: 2px solid brown;
+    padding: 14px;
+    margin: 4px 24px;
+    border-radius: 23px;
+    background-color: #e4dfdf;
+    margin-bottom: 20px;
+}
+
+.services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Contact CSS */
+
+#contact{
+    height: 750px;
+    background-color: #f7eeee;
+}
+
+.text-center{
+    /* margin-top: 20px; */
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 13px 20px;
+    padding: 10px 3px;
+    width: 90%;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+/* Footer CSS */
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}

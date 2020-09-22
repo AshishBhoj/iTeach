@@ -1,0 +1,122 @@
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.nav-list{
+    flex-direction: column;
+}
+
+.navbar{
+    flex-direction: column;
+    height: 300px;
+    transition: all 0.7s ease-out;
+}
+
+.rightnav{
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+}
+ 
+#search{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.h-nav{
+    height: 60px;
+}
+
+.v-class{
+    opacity: 0;
+}
+
+.firstsection {
+    height: 90vh;
+}
+
+.box-main{
+    max-width: 100%;
+    flex-direction: column-reverse;
+}
+
+.section{
+    flex-direction: column-reverse;
+    margin-top: 20px;
+}
+
+#home{
+    text-align: center;
+}
+
+.secondhalf img{
+    height: auto;
+    width: 100%;
+}
+
+.paras {
+    padding: 0px 0px;
+}
+
+.text-big{
+    text-align: left;
+}
+.text-small{
+    text-align: left;
+}
+
+#about{
+    height: auto;
+}
+
+.thumbnail img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#services{
+    height: auto;
+}
+#contact{
+    margin-top: -35px;
+    height: auto;
+}
+
+.form-input{
+    margin: 13px 10px;
+}
+
+/* Services Responsive CSS */
+
+.services{
+    flex-direction: column;
+
+}
+.services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+
+}
+.services .box img{
+    height: 111px;   
+    margin: auto;
+    display: block;
+    padding: 2px;
+}
+
+/* Footer Responsive CSS */
+footer{
+    margin-top: -20px;
+}
